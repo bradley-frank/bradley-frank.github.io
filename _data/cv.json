@@ -1,80 +1,90 @@
 {
   "basics": {
     "name": "Bradley S. Frank",
-    "label": "Radio Astronomer",
+    "label": "Astrophysicist",
     "picture": "",
     "email": "frank.brad@gmail.com",
-    "phone": "+2778 554 4499",
+    "phone": "",
     "website": "https://bradley-frank.github.io",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "summary": "Brad is an expert radio astronomer. He has a PhD (Astronomy) from the University of Cape Town. ",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Office 535, R.W. James Building, ",
+      "postalCode": "7000",
+      "city": "Cape Town",
+      "countryCode": "SA",
+      "region": "Western Cape"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "neutralthoughts",
+        "username": "fox_mouldy",
         "url": ""
-      },
-      {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "https://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "Department of Astronomy, University of Cape Town",
+      "position": "SKA Lecturer",
+      "website": "https://ast.uct.ac.za",
+      "startDate": "2016-01-01",
+      "endDate": "",
+      "summary": "The Department of Astronomy (UCT) is a globally recognised centre for astronomical research. Is the home to NRF Research Chairs, the head node for the National Astrophysics and Space Science Programme, is a leading institution in MeerKAT Large Survey Projects. Is also a host and a leading partner for the Inter-University Institute for Data Intensive Astronomy.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Project Scientist for the African Research Cloud Astronomy Demonstrator Project (ARCADE) and the IDIA/SKA-SA/IBM-Dome/ASTRON Pathfinder Science Regional Data Centre.",
+        "Implemented the first cloud focused teaching and learning intervention at UCT (second- year astronomical techniques).",
+        "Project Lead for the Pipelines Project at IDIA, coordinating an international team of scientific and technical experts in radio interferometry.",
+        "Member of the imaging Large Science Projects planned with MeerKAT, in addition to programmes with several other telescopes.",
+        "Lecturer for Data Science for Astronomers (M.Sc. in Data Science).",
+        "Supervises MSc. and Honours Students."
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "https://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": [
-        "Awarded 'Teacher of the Month'"
-      ]
+      "company": "",
+      "position": "",
+      "website": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": []
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
+      "institution": "University of Cape Town",
+      "area": "Astronomy",
+      "studyType": "PhD",
+      "startDate": "2009",
+      "endDate": "2013",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of the Witwatersrand",
+      "area": "Physics",
+      "studyType": "B.Sc. (Hons)",
+      "startDate": "",
+      "endDate": "2008",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of the Witwatersrand",
+      "area": "Physics & Mathematics",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "2007",
+      "gpa": "",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
+      "title": "Frank Nabarro Memorial Prize",
+      "date": "2008",
+      "awarder": "Faculty of Science",
+      "summary": "Highest Mark for 3rd year Project"
     }
   ],
   "publications": [
@@ -88,36 +98,31 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Calibration of Radio Data",
+      "level": "Expert",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "CASA",
+        "MIRIAD",
+        "MeqTrees"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Astrophysics",
+      "level": "Expert",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Dynamical Modeling.",
+        "Rotation Curves / Dark Matter Profile Fitting.",
+        "Molecular Gas."
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
+  "languages": [],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Cricket",
       "keywords": [
-        "Ferrets",
-        "Unicorns"
+        "Batting",
+        ""
       ]
     }
   ],
