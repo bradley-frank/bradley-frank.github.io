@@ -3,12 +3,31 @@ title: "About"
 layout: about
 ---
 
-Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
+Hi there! I am Bradley Frank, a South African Astrophysicist, with an expertise in Radio
+Astronomy. I am a Lecturer at the Dept. of Astronomy at the University of Cape Town, and am a Senior
+Researcher and Project Lead with the Inter-University Institute for Data Intensive Astronomy.
 
-- Clean responsive design with [six customizable skins](#skin)
-- Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
-- About page layout
-- Disqus Comments and Google Analytics support
-- SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
+This website is my personal research space where I share highlights related to my work as an
+astronomer. 
 
-You can find the source code for this theme at: {% include icon-github.html username="mmistakes" %}/[jekyll-theme-basically-basic](https://github.com/mmistakes/jekyll-theme-basically-basic)
+My work focuses on the evolution of galaxies, as observed via multi-wavelength missions, with an
+emphasis on radio telescopes. I have lots of observational experience with optical and radio
+telescopes. I learned how to observe with the old SAAO 20'' telescope -- climbing up a ladder with
+a joystick and peering through an eye-piece to point it. My expertise with radio telescopes is much
+more comprehensive. In the last ten years I've learned about radio astronomy by working on a variety
+of projects: 
+
+- Commissioned the Wits Rooftop Yagi interferometer, and winning the Frank Nabarro Memorial Prize
+  in the process.
+- Calibrated the 22GHz receiver on the Hartebeeshoek telescope with the late and brilliant Mike
+  Gaylard.
+- Helped commission the KAT-7 radio telescope with the MeerKAT team.
+- Designed the MeerKAT antenna configuration. 
+- Developed the calibration and imaging pipeline for the APERTIF project.
+- Developing the big-data backbone for the data processing and science delivery for the imaging
+  surveys that will be conducted with the MeerKAT telescope.
+
+I also manage to teach second year Astrophysics, Astronomical Techniques and, soon, the Data Science
+for Astronomers module in UCT's new Masters for Data Science degree.
+
+I am using the awesome {% include icon-github.html username="mmistakes" %}/[jekyll-theme-basically-basic](https://github.com/mmistakes/jekyll-theme-basically-basic) theme for this website.
