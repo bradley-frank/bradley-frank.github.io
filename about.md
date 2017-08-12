@@ -30,4 +30,6 @@ of projects:
 I also manage to teach second year Astrophysics, Astronomical Techniques and, soon, the Data Science
 for Astronomers module in UCT's new Masters for Data Science degree.
 
-I am using the awesome {% include icon-github.html username="mmistakes" %}/[jekyll-theme-basically-basic](https://github.com/mmistakes/jekyll-theme-basically-basic) theme for this website.
+I am using the awesome {% include icon-github.html username="mmistakes"
+%}/[jekyll-theme-basically-basic](https://github.com/mmistakes/jekyll-theme-basically-basic) theme
+for this website.
