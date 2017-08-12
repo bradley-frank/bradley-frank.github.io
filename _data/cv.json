@@ -40,13 +40,18 @@
       ]
     },
     {
-      "company": "",
-      "position": "",
-      "website": "",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": []
+      "company": "ASTRON",
+      "position": "Postdoctoral Research Fellow",
+      "website": "https://astron.nl",
+      "startDate": "2013",
+      "endDate": "2015",
+      "summary": "One of the oldest and most prestigious centres for radio astronomy in the world, has a core focus of developing technologies for the next generation of radio telescopes. Operates the LOFAR and APERTIF telescopes.",
+      "highlights": [
+        "A member of the RadioLife science team studying radio galaxies, investigating the complex relationship between the lifecycle of the central black hole and the evolution of the parent galaxy.",
+        "Characterised performance bottlenecks through efficient, lightweight benchmarking of astronomical software.",
+        "Lead author for the specification of the APERTIF pipeline, which formed part of the successful critical design review.",
+        "Lead designer and developer (Python) of the APERCAL software — the main software package being used for APERTIF."
+      ]
     }
   ],
   "volunteer": [],
@@ -58,7 +63,9 @@
       "startDate": "2009",
       "endDate": "2013",
       "gpa": "",
-      "courses": []
+      "courses": [
+        ""
+      ]
     },
     {
       "institution": "University of the Witwatersrand",
@@ -89,11 +96,39 @@
   ],
   "publications": [
     {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "name": "A rare example of low surface- brightness radio lobes in a gas-rich early-type galaxy: The story of NGC 3998",
+      "publisher": "Astronomy & Astrophysics",
+      "releaseDate": "2016-08-04",
+      "website": "https://doi.org/10.1051/0004-6361/201628282",
+      "summary": ""
+    },
+    {
+      "name": "Impact of Molecular Gas in Mass Models of Nearby Galaxies",
+      "publisher": "The Astronomical Journal",
+      "releaseDate": "2016-03-18",
+      "website": "Impact of Molecular Gas in Mass Models of Nearby Galaxies",
+      "summary": ""
+    },
+    {
+      "name": "Engineering and Science Highlights of the KAT-7 Radio Telescope",
+      "publisher": "Monthly Notices of the Royal Astronomical Society",
+      "releaseDate": "2016-08-01",
+      "website": "https://doi.org/10.1093/mnras/stw1040",
+      "summary": ""
+    },
+    {
+      "name": "KAT-7 Science Verification: Using HI Observations of NGC 3109 to Understand Its Kinematics and Mass Distribution",
+      "publisher": "The Astronomical Journal",
+      "releaseDate": "2013-07-29",
+      "website": "https://doi.org/10.1088/0004-6256/146/3/48 ",
+      "summary": ""
+    },
+    {
+      "name": "Significance of periodogram peaks and a pulsation mode analysis of the Beta Cephei star V403 Car",
+      "publisher": "Monthly Notices of the Royal Astronomical Society",
+      "releaseDate": "2008-08-21",
+      "website": "https://doi.org/10.1111/j.1365-2966.2008.13499.x",
+      "summary": ""
     }
   ],
   "skills": [
@@ -121,15 +156,10 @@
     {
       "name": "Cricket",
       "keywords": [
-        "Batting",
+        "Batting, Bowling, Leadership.",
         ""
       ]
     }
   ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ]
+  "references": []
 }
