@@ -59,9 +59,6 @@
       "studyType": "PhD",
       "startDate": "2009",
       "endDate": "2013",
-      "courses": [
-        ""
-      ]
     },
     {
       "institution": "University of the Witwatersrand",
@@ -69,7 +66,6 @@
       "studyType": "B.Sc. (Hons)",
       "startDate": "",
       "endDate": "2008",
-      "courses": []
     },
     {
       "institution": "University of the Witwatersrand",
@@ -77,7 +73,6 @@
       "studyType": "",
       "startDate": "",
       "endDate": "2007",
-      "courses": []
     }
   ],
   "awards": [
@@ -139,8 +134,8 @@
       "name": "Astrophysics",
       "level": "Expert",
       "keywords": [
-        "Dynamical Modeling.",
-        "Rotation Curves / Dark Matter Profile Fitting.",
+        "Dynamical Modeling",
+        "Rotation Curves / Dark Matter Profile Fitting",
         "Molecular Gas."
       ]
     }
