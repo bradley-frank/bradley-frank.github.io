@@ -4,7 +4,6 @@
     "label": "Astrophysicist",
     "picture": "",
     "email": "frank.brad@gmail.com",
-    "phone": "",
     "website": "https://bradley-frank.github.io",
     "summary": "Brad is an expert radio astronomer. He has a PhD (Astronomy) from the University of Cape Town. ",
     "location": {
@@ -18,7 +17,6 @@
       {
         "network": "Twitter",
         "username": "fox_mouldy",
-        "url": ""
       }
     ]
   },
@@ -26,7 +24,7 @@
     {
       "company": "Department of Astronomy, University of Cape Town",
       "position": "SKA Lecturer",
-      "website": "https://ast.uct.ac.za",
+      "website": "https://www.ast.uct.ac.za",
       "startDate": "2016-01-01",
       "endDate": "",
       "summary": "The Department of Astronomy (UCT) is a globally recognised centre for astronomical research. Is the home to NRF Research Chairs, the head node for the National Astrophysics and Space Science Programme, is a leading institution in MeerKAT Large Survey Projects. Is also a host and a leading partner for the Inter-University Institute for Data Intensive Astronomy.",
@@ -54,7 +52,6 @@
       ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
       "institution": "University of Cape Town",
@@ -62,7 +59,6 @@
       "studyType": "PhD",
       "startDate": "2009",
       "endDate": "2013",
-      "gpa": "",
       "courses": [
         ""
       ]
@@ -73,7 +69,6 @@
       "studyType": "B.Sc. (Hons)",
       "startDate": "",
       "endDate": "2008",
-      "gpa": "",
       "courses": []
     },
     {
@@ -82,7 +77,6 @@
       "studyType": "",
       "startDate": "",
       "endDate": "2007",
-      "gpa": "",
       "courses": []
     }
   ],
@@ -100,35 +94,35 @@
       "publisher": "Astronomy & Astrophysics",
       "releaseDate": "2016-08-04",
       "website": "https://doi.org/10.1051/0004-6361/201628282",
-      "summary": ""
+      "summary": "A deep survey of NGC3998 reveals a complex picture of galaxies intertwined in mergers, interactions and triggering. The massive-early type galaxy NGC3998 has a large amount of HI and hosts a low-luminosity AGN with faint S-shaped radio lobes. We try to reconstruct the evolutionary history of this galaxy and its neighbours, linking the peculiar morphology of the low-power radio jets to the ongoing interactions in the group."
     },
     {
       "name": "Impact of Molecular Gas in Mass Models of Nearby Galaxies",
       "publisher": "The Astronomical Journal",
       "releaseDate": "2016-03-18",
       "website": "Impact of Molecular Gas in Mass Models of Nearby Galaxies",
-      "summary": ""
+      "summary": "We studied the dark matter content in a sample of nearby galaxies. In particular, we used the HERACLES survey to model the contribution of the molecular gas using different conversion factors. This work is the first comprehensive study that includes molecular gas in the high-resolution study of dynamics in galaxies."
     },
     {
       "name": "Engineering and Science Highlights of the KAT-7 Radio Telescope",
       "publisher": "Monthly Notices of the Royal Astronomical Society",
       "releaseDate": "2016-08-01",
       "website": "https://doi.org/10.1093/mnras/stw1040",
-      "summary": ""
+      "summary": "The Karoo Array Telescope (KAT-7) telescope was the first radio interferometer in Africa, and was a pathfinder for the MeerKAT telescope. We learned many important technical and engineering lessons during the building, commissioning and operation of KAT-7, but also produced some exciting and interesting science results. This paper provides a highlight of the technical and astronomical achievements of this telescope."
     },
     {
       "name": "KAT-7 Science Verification: Using HI Observations of NGC 3109 to Understand Its Kinematics and Mass Distribution",
       "publisher": "The Astronomical Journal",
       "releaseDate": "2013-07-29",
       "website": "https://doi.org/10.1088/0004-6256/146/3/48 ",
-      "summary": ""
+      "summary": "We used the KAT-7 telescope’s excellent low surface-brightness sensitivity to map the neutral hydrogen content in the nearby galaxy NGC3109, and we present a high spectral resolution dark matter model. "
     },
     {
       "name": "Significance of periodogram peaks and a pulsation mode analysis of the Beta Cephei star V403 Car",
       "publisher": "Monthly Notices of the Royal Astronomical Society",
       "releaseDate": "2008-08-21",
       "website": "https://doi.org/10.1111/j.1365-2966.2008.13499.x",
-      "summary": ""
+      "summary": "The periodogram is an essential and powerful tool in the arsenal of the stellar astrophysicist, and provides a way to study the variability of a star using unevenly sampled photometric time-series. In this work we present a method to estimate the statistical significance of peaks in the periodogram spectrum. "
     }
   ],
   "skills": [
@@ -151,15 +145,12 @@
       ]
     }
   ],
-  "languages": [],
   "interests": [
     {
       "name": "Cricket",
-      "keywords": [
-        "Batting, Bowling, Leadership.",
-        ""
-      ]
+    },
+    {
+      "name": "Fitness / Running.",
     }
   ],
-  "references": []
 }
