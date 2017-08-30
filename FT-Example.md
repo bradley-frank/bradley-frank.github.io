@@ -20,12 +20,9 @@ Please note that there are lots of resources on how to **generate window functio
 First, I'm going to import the important libraries, as suggested in the aforementioned URL. Note that `%matplotlib inline` command allows us to render plots within this notebook.
 
 Also note how I have defined *pylab* and *numpy* in the Python namespace. This makes it easy to
-reference plotting and analytical functions from those libraries. $$ E = mc^2 $$. [](raw: x=y)
-[](raw: $x=y^2 \sigma$)
-\( \Delta x \)
-$$ \Delta x $$
+reference plotting and analytical functions from those libraries. 
 
-```
+``` python
 import numpy.fft as fft
 import pylab as pl
 import numpy as np
@@ -34,14 +31,14 @@ import numpy as np
 
 ## 1.1. The Shah Function
 
-The Shah function (Comb) is a series of delta functions with some spacing  \\( \Delta x \\). 
+The Shah function (Comb) is a series of delta functions with some spacing _dx_. 
 
 The image below is from your WS1, and is one of the examples found in the ERA appendix on Fourier Transforms:
 http://www.cv.nrao.edu/~sransom/web/A1.html
 
 ![title](shah.png)
 
-In the next cell I define the Shah function, by hand. Note how I use the `np.mod` function. This returns the remainder of division, so I've inserted an _if_ statement that appends a **1** to the array if the index _i_ is divisible by $\Delta x$, and **0** if it isn't. There are certainly many more methods to do this, but let's do it the hard way for now.
+In the next cell I define the Shah function, by hand. Note how I use the `np.mod` function. This returns the remainder of division, so I've inserted an _if_ statement that appends a **1** to the array if the index _i_ is divisible by _dx_, and **0** if it isn't. There are certainly many more methods to do this, but let's do it the hard way for now.
 
 I've also included comments on how I've constructed the Shah function _and_ the associated plot.
 
@@ -151,7 +148,7 @@ pl.title('FT of Shah Function')
 ![png](FT-Example_files/FT-Example_7_1.png)
 
 
-We need to note something important here. Recall that I set $\Delta x$ when I defined the Shah function above. Now, from the NRAO plot, I know that space between the spikes in the Fourier domain is given by the following: $\Delta s = 1/\Delta x$. You will note that this is the case in the plot above.
+We need to note something important here. Recall that I set _dx_ when I defined the Shah function above. Now, from the NRAO plot, I know that space between the spikes in the Fourier domain is given by the following: _ds = 1/dx_. You will note that this is the case in the plot above.
 
 
 ```
