@@ -1,3 +1,14 @@
+---
+title: "Fourier Transforms: An Example"
+excerpt: "In this notebook, I will illustrate how you can generate a window function, and how you
+can calculate the associated Fourier Transform"
+tags: 
+  - post
+  - teaching 
+  - astronomy
+  - cloud
+last_modified_at: 2017-08-30T16:27:00
+---
 
 # Fourier Transform 
 
@@ -11,8 +22,8 @@ When you have a regularly sampled series, e.g., a time series, you can compute t
 
 ## When in doubt, Google
 
-There's a reason why WS1 is short on details -- there is a huge amount of resources on the internet that focuses on computing Fourier Transforms using python. In fact, if you Google **Python Fourier Transform**, the first hit will probably be the relevant SCIPY page:
-https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.fft.fft.html#numpy.fft.fft
+There's a reason why WS1 is short on details -- there is a huge amount of resources on the internet that focuses on computing Fourier Transforms using python. In fact, if you Google **Python Fourier Transform**, the first hit will probably be the relevant [SCIPY][scipy-fft] page.
+
 
 Please note that there are lots of resources on how to **generate window functions**, such as the _boxcar_ function. You can use a similar method to the one I've done below, or you can simply use a python function to define this. I leave it to you to figure it out.
 
@@ -36,7 +47,7 @@ The Shah function (Comb) is a series of delta functions with some spacing _dx_.
 The image below is from your WS1, and is one of the examples found in the ERA appendix on Fourier Transforms:
 http://www.cv.nrao.edu/~sransom/web/A1.html
 
-![title](shah.png)
+![png](FT-Example_files/shah.png)
 
 In the next cell I define the Shah function, by hand. Note how I use the `np.mod` function. This returns the remainder of division, so I've inserted an _if_ statement that appends a **1** to the array if the index _i_ is divisible by _dx_, and **0** if it isn't. There are certainly many more methods to do this, but let's do it the hard way for now.
 
@@ -142,3 +153,5 @@ pl.title('FT of Shah Function')
 
 
 We need to note something important here. Recall that I set _dx_ when I defined the Shah function above. Now, from the NRAO plot, I know that space between the spikes in the Fourier domain is given by the following: _ds = 1/dx_. You will note that this is the case in the plot above.
+
+[scipy-fft]: https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.fft.fft.html#numpy.fft.fft
