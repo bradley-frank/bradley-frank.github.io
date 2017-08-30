@@ -31,8 +31,7 @@ import numpy as np
 
 ## 1.1. The Shah Function
 
-The Shah function (Comb) is a series of delta functions with some spacing 
-$$ \Delta x $$. 
+The Shah function (Comb) is a series of delta functions with some spacing  \\( \Delta x \\). 
 
 The image below is from your WS1, and is one of the examples found in the ERA appendix on Fourier Transforms:
 http://www.cv.nrao.edu/~sransom/web/A1.html
