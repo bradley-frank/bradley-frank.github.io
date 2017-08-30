@@ -20,9 +20,9 @@ There is often an implicit assumption when calculating the analytical representa
 In practice, astronomical signals are not perfect, simple sine-waves. Neither are they perfectly sampled, or sampled for infinite time. 
 When you have a regularly sampled series, e.g., a time series, you can compute the Fourier Transform using the Fast Fourier Transform (FFT) Algorithm. This is what we're doing in this worksheet -- we are computing the FFT for a series of functions, and we are studying how similar or different the FT is to what we expect from the illustrations on the worksheet.
 
-## When in doubt, Google
+## When in doubt, [Google][lmgtfy]
 
-There's a reason why WS1 is short on details -- there is a huge amount of resources on the internet that focuses on computing Fourier Transforms using python. In fact, if you Google **Python Fourier Transform**, the first hit will probably be the relevant [SCIPY][scipy-fft] page.
+There's a reason why WS1 is short on details -- there is a huge amount of resources on the internet that focuses on computing Fourier Transforms using python. In fact, if you [Google][lmgtfy] **Python Fourier Transform**, the first hit will probably be the relevant [SCIPY][scipy-fft] page.
 
 
 Please note that there are lots of resources on how to **generate window functions**, such as the _boxcar_ function. You can use a similar method to the one I've done below, or you can simply use a python function to define this. I leave it to you to figure it out.
@@ -40,12 +40,12 @@ import numpy as np
 %matplotlib inline
 ```
 
-## 1.1. The Shah Function
+## The Shah Function
 
 The Shah function (Comb) is a series of delta functions with some spacing _dx_. 
 
-The image below is from your WS1, and is one of the examples found in the ERA appendix on Fourier Transforms:
-http://www.cv.nrao.edu/~sransom/web/A1.html
+The image below is from your WS1, and is one of the examples found in the [ERA appendix on Fourier Transforms][era-app]:
+
 
 ![shah]({{ site.url }}/assets/images/shah.png)
 
@@ -85,10 +85,10 @@ pl.ylim(0,2)
 ```
 
 
-![png](FT-Example_files/FT-Example_3_1.png)
+![ft-3.1]({{ site.url }}/assets/images/FT-Example_3_1.png)
 
 
-## 1.2. Calculating the Fourier Transform
+## Calculating the Fourier Transform
 
 Now that we have generated the Shah function, we can use the `fft` library defined above. 
 
@@ -114,7 +114,7 @@ F = fft.fft(y, norm='ortho', n=nftpoints)
 freq = fft.fftshift(fft.fftfreq(nftpoints))
 ```
 
-## 1.3. Plotting the FFT
+## Plotting the FFT
 
 Now that I've generated the window function and the associated FT, I can finally plot them in a way similar to the NRAO plot. 
 
@@ -149,9 +149,11 @@ pl.title('FT of Shah Function')
 
 
 
-![png](FT-Example_files/FT-Example_7_1.png)
+![ft-image2]({{ site.url }}/assets/images/FT-Example_7_1.png)
 
 
 We need to note something important here. Recall that I set _dx_ when I defined the Shah function above. Now, from the NRAO plot, I know that space between the spikes in the Fourier domain is given by the following: _ds = 1/dx_. You will note that this is the case in the plot above.
 
 [scipy-fft]: https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.fft.fft.html#numpy.fft.fft
+[era-app]: http://www.cv.nrao.edu/~sransom/web/A1.html
+[lmgtfy]: http://lmgtfy.com/?q=python+fourier+transforms
