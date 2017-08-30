@@ -47,7 +47,7 @@ The Shah function (Comb) is a series of delta functions with some spacing _dx_.
 The image below is from your WS1, and is one of the examples found in the ERA appendix on Fourier Transforms:
 http://www.cv.nrao.edu/~sransom/web/A1.html
 
-![shah]({{ site.url }}/assets/shah.png)
+![shah]({{ site.url }}/assets/images/shah.png)
 
 In the next cell I define the Shah function, by hand. Note how I use the `np.mod` function. This returns the remainder of division, so I've inserted an _if_ statement that appends a **1** to the array if the index _i_ is divisible by _dx_, and **0** if it isn't. There are certainly many more methods to do this, but let's do it the hard way for now.
 
