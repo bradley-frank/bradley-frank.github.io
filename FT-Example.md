@@ -19,8 +19,8 @@ Please note that there are lots of resources on how to **generate window functio
 ## Getting started
 First, I'm going to import the important libraries, as suggested in the aforementioned URL. Note that `%matplotlib inline` command allows us to render plots within this notebook.
 
-Also note how I have defined *pylab* and *numpy* in the Python namespace. This makes it easy to reference plotting and analytical functions from those libraries.
-
+Also note how I have defined *pylab* and *numpy* in the Python namespace. This makes it easy to
+reference plotting and analytical functions from those libraries. \( E = mc^2 \)
 
 ```
 import numpy.fft as fft
