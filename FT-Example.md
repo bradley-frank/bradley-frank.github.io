@@ -43,7 +43,7 @@ In the next cell I define the Shah function, by hand. Note how I use the `np.mod
 I've also included comments on how I've constructed the Shah function _and_ the associated plot.
 
 
-```
+``` python
 # This is the step in the x direction.
 dx = 10 
 # Nx defines how many samples. The for-loop generates twice the number
@@ -74,13 +74,6 @@ pl.ylim(0,2)
 ```
 
 
-
-
-    (0, 2)
-
-
-
-
 ![png](FT-Example_files/FT-Example_3_1.png)
 
 
@@ -89,7 +82,7 @@ pl.ylim(0,2)
 Now that we have generated the Shah function, we can use the `fft` library defined above. 
 
 
-```
+``` python
 
 # I want the FFT to be smooth and well sampled, so I'm going to define 
 # a variable that sets the number of points for the FFT.
@@ -117,7 +110,7 @@ Now that I've generated the window function and the associated FT, I can finally
 Here the `subplot`, `step` and `ylim` commands are important.
 
 
-```
+``` python
 # First, plot the Shah function. 
 pl.subplot(121)
 # Plot this in a black line, this is what 'k-' is for.
@@ -149,8 +142,3 @@ pl.title('FT of Shah Function')
 
 
 We need to note something important here. Recall that I set _dx_ when I defined the Shah function above. Now, from the NRAO plot, I know that space between the spikes in the Fourier domain is given by the following: _ds = 1/dx_. You will note that this is the case in the plot above.
-
-
-```
-
-```
