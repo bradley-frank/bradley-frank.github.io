@@ -22,6 +22,8 @@ First, I'm going to import the important libraries, as suggested in the aforemen
 Also note how I have defined *pylab* and *numpy* in the Python namespace. This makes it easy to
 reference plotting and analytical functions from those libraries. $$ E = mc^2 $$. [](raw: x=y)
 [](raw: $x=y^2 \sigma$)
+\( \Delta x \)
+$$ \Delta x $$
 
 ```
 import numpy.fft as fft
