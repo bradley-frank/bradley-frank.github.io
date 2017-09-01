@@ -16,7 +16,7 @@ Refer to Ch2 of the ERA Notes.
 
 Recall that if the zenith opacity is sufficiently small, we can write the system temperature of a telescope as follows:
 
-$$T_\mathrm{sys} = (T_\mathrm{r} + T_\mathrm{cmb})+T_\mathrm{b}$$
+$$ T_\mathrm{sys} = (T_\mathrm{r} + T_\mathrm{cmb})+T_\mathrm{b} $$
 
 where $$T_\mathrm{b}$$, the equivalent temperature of the atmosphere, is given by $$T_b=T_{atm} \tau_z \sec z$$.
 
