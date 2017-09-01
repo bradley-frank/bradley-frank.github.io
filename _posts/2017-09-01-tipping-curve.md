@@ -41,7 +41,7 @@ The tipping curves are all located in the directory `/data/ast2003h/`.
 
 You will find the following files in there:
 
-* [tipping-curve-1.txt][tc1]
+* ![tc1]({{site.url}}/assets/data/tipping-curve-1.txt)
 * tipping-curve-2.txt
 * tipping-curve-3.txt
 * tipping-curve-4.txt
@@ -110,4 +110,3 @@ work sensibly.
 When you're done, _download_ the notebook and _upload_ it on the Vula website.
 
 [era-ch2]: http://www.cv.nrao.edu/~sransom/web/Ch2.html
-[tc1]: assets/data/tipping-curve-1.txt
