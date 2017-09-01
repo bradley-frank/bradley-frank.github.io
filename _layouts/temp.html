@@ -6,16 +6,18 @@ layout: default
 {% include page-intro.html %}
 
 <main id="main" class="page-content" aria-label="Content">
-<script type="text/javascript"
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/javascript"
     src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-
   <div class="inner">
     <article class="entry-wrap">
       <div class="entry-content">
         {{ content }}
       </div>
+      {% if site.disqus.shortname %}
+        {% include disqus_comments.html %}
+      {% endif %}
     </article>
 
     {% include footer.html %}
