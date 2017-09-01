@@ -1,11 +1,11 @@
 {
   "basics": {
-    "name": "Bradley S. Frank",
+    "name": "Dr. Bradley S. Frank",
     "label": "Astrophysicist",
     "picture": "",
     "email": "frank.brad@gmail.com",
     "website": "https://bradley-frank.github.io",
-    "summary": "Brad is an expert radio astronomer. He has a PhD (Astronomy) from the University of Cape Town. ",
+    "summary": "I am an expert radio astronomer. I am the SKA Lecturer at the University of Cape Town.",
     "location": {
       "address": "Office 535, R.W. James Building, ",
       "postalCode": "7000",
@@ -16,7 +16,7 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "fox_mouldy",
+        "username": "@fox_mouldy",
       }
     ]
   },
@@ -59,7 +59,6 @@
       "studyType": "PhD",
       "startDate": "2009",
       "endDate": "2013",
-      "Thesis": "Dynamics of Molecular Gas in Nearby Galaxies.",
     },
     {},
     {
