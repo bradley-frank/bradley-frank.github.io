@@ -60,7 +60,7 @@
       "startDate": "2009",
       "endDate": "2013",
     },
-    
+    {
       "institution": "University of the Witwatersrand",
       "area": "Physics",
       "studyType": "B.Sc. (Hons)",
@@ -138,17 +138,7 @@
         "Rotation Curves / Dark Matter Profile Fitting",
         "Molecular Gas."
       ]
-    },
-    {
-        "name": "Programming",
-        "level": "Expert",
-        "keywords": [
-            "Python",
-            "Fortran",
-            "C++",
-            "Linux (Bash) Scripting"
-        ]
-    },
+    }
   ],
   "interests": [
     {
