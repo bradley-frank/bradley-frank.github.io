@@ -1,18 +1,19 @@
 ---
 title: "Worksheet 2: The Tipping Curve"
-excerpt: "In this notebook, I will illustrate how you can generate a window function, and how you
-can calculate the associated Fourier Transform"
+excerpt: "The tipping curve is a simple and elegant way to characterize telescope performance.
+Penzias \& Wilson used a similar method to calculate the temperature of the CMB."
 tags: 
   - post
   - teaching 
   - astronomy
   - cloud
+  - ast2003h
 last_modified_at: 2017-09-01T14:00:00
 ---
 
 # Worksheet 2: The Tipping Curve
 
-Please refer to [Chapter 2 of the ERA Notes][era-ch2]. 
+This worksheet is based on [Chapter 2 of the ERA Notes][era-ch2]. 
 
 Recall that if the zenith opacity is sufficiently small, we can write the system temperature of a telescope as follows:
 
@@ -23,6 +24,14 @@ where $$T_\mathrm{b}$$, the equivalent temperature of the atmosphere, is given b
 Since $$T_r$$ and $$T_{cmb}$$ are constants, we can thus write down the following expression for the **tipping curve**:
 
 $$\tau_z \approx \frac{\Delta T_{sys} / T_{atm}}{\Delta \sec z}$$
+
+## Access
+
+Please login to the [ARCADE/Jupyter-Hub][arcade] using your **ast2** credentials, and email me if
+you have any problems accessing the hub. 
+
+Construct a new Jupyter (IPython) Notebook using the commands below, and answer the following
+questions in your notebook. 
 
 # Questions
 
@@ -107,3 +116,4 @@ When you're done, _download_ the notebook and _upload_ it on the Vula website.
 [tc4]: /assets/data/tipping-curve-4.txt
 [tc5]: /assets/data/tipping-curve-5.txt
 [tcex]: /assets/data/tipping-curve-example.txt
+[arcade]: https://arcade-jupyter-hub.arc.ac.za
