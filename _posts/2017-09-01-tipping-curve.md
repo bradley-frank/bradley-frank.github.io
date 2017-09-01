@@ -12,7 +12,7 @@ last_modified_at: 2017-09-01T14:00:00
 
 # Worksheet 2: The Tipping Curve
 
-Refer to Ch2 of the ERA Notes. 
+Please refer to [Chapter 2 of the ERA Notes][era-ch2]. 
 
 Recall that if the zenith opacity is sufficiently small, we can write the system temperature of a telescope as follows:
 
@@ -102,11 +102,11 @@ pl.title('Receiver Temperature \n Measurements', fontsize=20)
 ![tipping-curve]({{site.url}}/assets/images/tipping-curve-worksheet_4_1.png)
 
 
-### Enter your code below. 
+### Submitting your worksheet.
 
-Remember to include your name and your student number.
+You can simply copy-and-paste these commands into your own Jupyter Notebook; the commands ought to
+work sensibly. 
 
+When you're done, _download_ the notebook and _upload_ it on the Vula website.
 
-```python
-
-```
+[era-ch2]: http://www.cv.nrao.edu/~sransom/web/Ch2.html
