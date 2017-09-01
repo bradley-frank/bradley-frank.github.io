@@ -1,6 +1,5 @@
 ---
 layout: home
-paginate: true
 alt_title: "Brad's Research Blog"
 sub_title: "News and Highlights from My Research Life"
 image: /assets/images/brad.png
