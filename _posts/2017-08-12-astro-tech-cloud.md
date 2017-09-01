@@ -27,16 +27,16 @@ Thus, the challenge was to provide the students with comprehensive, persistent a
 tools and data required for the project. 
 
 I had three options opened to me:
-    - Have the students install the software on their own computers.
-        - This was a non-starter, since it would've taken longer for us to troubleshoot installation
+    * Have the students install the software on their own computers.
+        * This was a non-starter, since it would've taken longer for us to troubleshoot installation
           problems than the time we had available. 
-    - Use the SCILAB systems at UCT.
-        - While we could easily accommodation the 50 students, we would not be able to provide
+    * Use the SCILAB systems at UCT.
+        * While we could easily accommodation the 50 students, we would not be able to provide
           persistent access to the data. Plus, most of the radio astronomical software is primarily
           available for Linux-based installations, which would've been a problem for the Window's
           based systems in the SCILABS.
-    - Use the NASSP Labs at UCT.
-        - This lab comprised about 25 computers running off a single server, so we could only
+    * Use the NASSP Labs at UCT.
+        * This lab comprised about 25 computers running off a single server, so we could only
           accommodate a single group at a time. We were able to install the required software and
           provide access to the data, the sheer load of having 25 students logging in at the same
           time crashed the sytem. 
