@@ -9,5 +9,4 @@ introduction: |
     Institute for Data Intensive Astronomy (IDIA). Here you'll find the following:
     - My research highlights.
     - Supplementary material for the courses I teach.
-_This page is best viewed in Firefox or Chrome._
 ---
