@@ -37,16 +37,17 @@ $$\tau_z \approx \frac{\Delta T_{sys} / T_{atm}}{\Delta \sec z}$$
 
 ## Loading and Plotting the Data
 
-The tipping curves are all located in the directory `/data/ast2003h/`. 
+The tipping curves are all located in the directory `/data/ast2003h/`, but you can also view and
+download them here.
 
-You will find the following files in there:
+You will find the following files in the `/data/ast2003h/` directory:
 
 * [tipping-curve-1.txt][tc1]
-* tipping-curve-2.txt
-* tipping-curve-3.txt
-* tipping-curve-4.txt
-* tipping-curve-5.txt
-* tipping-curve-example.txt
+* [tipping-curve-2.txt][tc2]
+* [tipping-curve-3.txt][tc2]
+* [tipping-curve-4.txt][tc3]
+* [tipping-curve-5.txt][tc4]
+* [tipping-curve-example.txt][tcex]
 
 In each file, column-1 corresponds to $$\sec(z)$$, column-2 corresponds to $$T_\mathrm{sys}/T_\mathrm{atm}$$ and column-3 corresponds to measurements of $$T_\mathrm{r}$$.
 
@@ -90,17 +91,7 @@ pl.xlabel('$T_\mathrm{r}$', fontsize=14)
 pl.ylabel('Number of Measurements', fontsize=14)
 pl.title('Receiver Temperature \n Measurements', fontsize=20)
 ```
-
-
-
-
-    <matplotlib.text.Text at 0x7f168281b0d0>
-
-
-
-
 ![tipping-curve]({{site.url}}/assets/images/tipping-curve-worksheet_4_1.png)
-
 
 ### Submitting your worksheet.
 
@@ -111,3 +102,8 @@ When you're done, _download_ the notebook and _upload_ it on the Vula website.
 
 [era-ch2]: http://www.cv.nrao.edu/~sransom/web/Ch2.html
 [tc1]: /assets/data/tipping-curve-1.txt
+[tc2]: /assets/data/tipping-curve-2.txt
+[tc3]: /assets/data/tipping-curve-3.txt
+[tc4]: /assets/data/tipping-curve-4.txt
+[tc5]: /assets/data/tipping-curve-5.txt
+[tcex]: /assets/data/tipping-curve-example.txt
