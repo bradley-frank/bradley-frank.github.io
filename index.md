@@ -1,8 +1,8 @@
 ---
 layout: home
 alt_title: "Brad's Research Blog"
-sub_title: "News and Highlights from My Research Life"
-image: /assets/images/brad.png
+sub_title: "News and Highlights"
+image: /assets/images/brad.jpg
 introduction: |
     I'm a Radio Astronomer, working on the imaging Large Survey Projects with the MeerKAT telescope. I
     am the SKA Lecturer at the University of Cape Town and a Senior Researcher with the Inter-University
