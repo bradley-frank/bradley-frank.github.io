@@ -1,7 +1,6 @@
 ---
 title: "Worksheet 2: The Tipping Curve"
-excerpt: "The tipping curve is a simple and elegant way to characterize telescope performance.
-    Penzias \& Wilson used a similar method to calculate the temperature of the CMB."
+excerpt: "The tipping curve is a simple and elegant way to characterize telescope performance."
 tags: 
   - post
   - teaching 
