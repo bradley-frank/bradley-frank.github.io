@@ -58,9 +58,8 @@
       "area": "Astronomy",
       "studyType": "PhD",
       "startDate": "2009",
-      "endDate": "2013",
+      "endDate": "2013"
     },
-    {},
     {
       "institution": "University of the Witwatersrand",
       "area": "Physics",
@@ -138,6 +137,16 @@
         "Dynamical Modeling",
         "Rotation Curves / Dark Matter Profile Fitting",
         "Molecular Gas."
+      ]
+    }
+    {
+      "name": "Programming",
+      "level": "Expert",
+      "keywords": [
+        "Python",
+        "Fortran",
+        "C++",
+        "Unix Scripting"
       ]
     }
   ],
