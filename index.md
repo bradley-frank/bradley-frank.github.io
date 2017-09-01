@@ -2,21 +2,12 @@
 layout: home
 paginate: true
 alt_title: "Brad's Research Blog"
-sub_title: "News and Highlights of My Research Life"
+sub_title: "News and Highlights from My Research Life"
 image: /assets/images/brad.png
 introduction: |
-  Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as a substitute for the default --- [Minima](https://github.com/jekyll/minima). Conventions and features found there are fully supported by **Basically Basic**, with a few enhancements thrown in for good measure:
-
-  - Clean responsive design with six customizable skins
-  - Curriculum Vitæ/Resume layout powered by [JSON data](http://registry.jsonresume.org/)
-  - About page layout
-  - Disqus Comments and Google Analytics support
-  - SEO best practices via [Jekyll SEO Tag](https://github.com/jekyll/jekyll-seo-tag/)
-actions:
-  - label: "Get Started"
-    icon: github
-    url: "https://github.com/mmistakes/jekyll-theme-basically-basic"
-  - label: "Download"
-    icon: download
-    url: "https://github.com/mmistakes/jekyll-theme-basically-basic/archive/master.zip"
+I'm a Radio Astronomer, working on the imaging Large Survey Projects with the MeerKAT telescope. I
+am the SKA Lecturer at the University of Cape Town and a Senior Researcher with the Inter-University
+Institute for Data Intensive Astronomy (IDIA). Here you'll find the following:
+  - My research highlights.
+  - Supplementary material for the courses I teach.
 ---
