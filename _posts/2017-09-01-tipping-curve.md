@@ -14,15 +14,15 @@ last_modified_at: 2017-09-01T14:00:00
 
 This worksheet is based on [Chapter 2 of the ERA Notes][era-ch2]. 
 
-Recall that if the zenith opacity is sufficiently small, we can write the system temperature of a telescope as follows:
+If the zenith opacity is sufficiently small, we can write the system temperature of a telescope as follows:
 
 $$ T_\mathrm{sys} = (T_\mathrm{r} + T_\mathrm{cmb})+T_\mathrm{b} $$
 
 where $$T_\mathrm{b}$$, the equivalent temperature of the atmosphere, is given by $$T_b=T_{atm} \tau_z \sec z$$.
 
-Since $$T_r$$ and $$T_{cmb}$$ are constants, we can thus write down the following expression for the **tipping curve**:
+Since $$T_\mathrm{r}$$ and $$T_\mathrm{cmb}$$ are constants, we can thus write down the following expression for the **tipping curve**:
 
-$$\tau_z \approx \frac{\Delta T_{sys} / T_{atm}}{\Delta \sec z}$$
+$$\tau_\mathrm{z} \approx \frac{\Delta T_\mathrm{sys} / T_\mathrm{atm}}{\Delta \sec z}$$
 
 ## Access
 
@@ -34,13 +34,13 @@ questions in your notebook.
 
 # Questions
 
-1. For each data set (measurement), use the data provided to estimate the system temperature _and_ calculate the temperature of the CMB.
+1. For each data set (measurement), use the data provided to estimate the system temperature _and_ the temperature of the CMB.
 2. For each measurement, calculate the RMS deviation of the receiver temperature $$T_\mathrm{r}$$. Now, plot the RMS deviations and the measured temperature and the calculated temperature $$T_\mathrm{cmb}$$. What can you conclude?
 
 #### Tips & Assumptions
-* You may assume that the ambient atmospheric temperature ahs been measured to be $$T_\mathrm{atm}=300K$$.
+* You may assume that the ambient atmospheric temperature is measured to be $$T_\mathrm{atm}=300K$$.
 * I have used a simple python library to fit a straight line to the tipping curve. This is a generic library to fit polynomials to data, and there is an associated function to calculate the resulting coefficients. 
-* The slope of the tipping curve is $$[T_\mathrm{r}+T_\mathrm{cmb}]/T_\mathrm{atm}$$, and the x-intercept is $$\sec(z)$$. Since the data is noisy, you can use a fit to estimate these parameters.
+* The slope of the tipping curve is $$[T_\mathrm{r}+T_\mathrm{cmb}]/T_\mathrm{atm}$$, and the x-intercept is $$\sec(z)$$. Since the data is noisy, use a fit to estimate these parameters.
 * The $$T_\mathrm{r}$$ receiver measurements resemble a Gaussian distribution. You can use this concept to estimate the mean value $$<T_\mathrm{r}>$$, and the RMS deviation of the measurements.
 
 ## Loading and Plotting the Data
