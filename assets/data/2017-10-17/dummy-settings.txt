@@ -1,0 +1,33 @@
+[observation]
+ra = 10h00m00.0s
+dec = -30d00m00.0s
+filename = Gaussians
+imsize = 1024
+pixelsize = 4.0arcsec
+reffreq = 1420MHz
+freqint = 1GHz
+integration = 10
+totaltime = 7200s
+project = sim
+skymodel = Gaussians.im
+config = brads-random-array.cfg
+
+[sources]
+source1=10h00m00.00s,-30d00m00.0s,1,3.0,1.0,90
+source2=10h00m00.00s,-30d00m03.0s,1,1.0,1.0,90
+source3=10h00m00.00s,-30d05m03.0s,1,10.0,1.0,45
+
+[clean]
+vis = sim/sim.brads-random-array.ms
+imagename          =  sim.dirty
+mode               =  mfs
+niter              =  100
+threshold          =  0.0mJy
+psfmode            =  clark
+imagermode         =  csclean
+ftmachine          =  mosaic
+imsize             =  1024
+cell               =  4arcsec
+stokes             =  I
+weighting          =  natural
+robust             =  0.0
