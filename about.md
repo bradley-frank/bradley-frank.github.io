@@ -3,9 +3,10 @@ title: "About"
 layout: about
 ---
 
-Hi there! I am Bradley Frank, a South African Astrophysicist, with an expertise in Radio
-Astronomy. I am a Lecturer at the Dept. of Astronomy at the University of Cape Town, and am a Senior
-Researcher and Project Lead with the Inter-University Institute for Data Intensive Astronomy.
+Hi there! I am Bradley Frank, a South African Astrophysicist, with an expertise in Radio Astronomy.
+I am a Senior Developer with the Science Data Processing Team at the South African Radio
+Astronomical Observatory (SARAO, https://ska.ac.za), and a Senior Researcher and Project Lead with
+the Inter-University Institute for Data Intensive Astronomy.
 
 This website is my personal research space where I share highlights related to my work as an
 astronomer. 
@@ -27,8 +28,8 @@ of projects:
 - Developing the big-data backbone for the data processing and science delivery for the imaging
   surveys that will be conducted with the MeerKAT telescope.
 
-I also manage to teach second year Astrophysics, Astronomical Techniques and, soon, the Data Science
-for Astronomers module in UCT's new Masters for Data Science degree.
+I am currently doing postgraduate studies in Engineering Management at the University of
+Stellenbosch.
 
 I am using the awesome {% include icon-github.html username="mmistakes"
 %}/[jekyll-theme-basically-basic](https://github.com/mmistakes/jekyll-theme-basically-basic) theme
