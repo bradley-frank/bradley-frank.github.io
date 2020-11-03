@@ -21,12 +21,19 @@
     ]
   },
   "work": [
+      {"company": "South African Radio Astronomical Observatory",
+          "position": "Senior Developer",
+          "website": "https://ska.ac.za",
+          "startDate": "2018-03-12",
+          "endDate": "",
+          "summary": "The South African Radio Astronomical Observatory (SARAO) currently operates the Hartebeeshoek Radio Astronomical Observatory, is building and will operate the MeerKAT telescope and will play a leading role in building the SKA mid-frequency array that will be built in South Africa."
+      },
     {
       "company": "Department of Astronomy, University of Cape Town",
       "position": "SKA Lecturer",
       "website": "https://www.ast.uct.ac.za",
       "startDate": "2016-01-01",
-      "endDate": "",
+      "endDate": "2018-03-09",
       "summary": "The Department of Astronomy (UCT) is a globally recognised centre for astronomical research. Is the home to NRF Research Chairs, the head node for the National Astrophysics and Space Science Programme, is a leading institution in MeerKAT Large Survey Projects. Is also a host and a leading partner for the Inter-University Institute for Data Intensive Astronomy.",
       "highlights": [
         "Project Scientist for the African Research Cloud Astronomy Demonstrator Project (ARCADE) and the IDIA/SKA-SA/IBM-Dome/ASTRON Pathfinder Science Regional Data Centre.",
